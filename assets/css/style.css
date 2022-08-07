@@ -5,13 +5,6 @@
 }
 
 .cabecalho {
-  display: flex;
-  justify-content: center;
-  background-color: #555555;
-  border-bottom: #212121 solid;
-  color: #fff;
-  height: 50px;
-  align-items: center;
 }
 .container {
   background-color: #f0f0f0;
