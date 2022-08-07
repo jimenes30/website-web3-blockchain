@@ -17,7 +17,6 @@ connectButton.addEventListener('click',  async function connectWallet() {
       userWalletAddress.innerHTML = ethereum.selectedAddress
       userChainId.innerHTML = ethereum.networkVersion
       userMainnetEthereum.innerHTML = ethereum.isConnected()
-      // fox.classList.remove('hidden')
     }
     else {
       alert('Metamask is not installed')
