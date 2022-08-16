@@ -6,13 +6,40 @@
 
 .cabecalho {
 }
+
+/******************************************/
+
+.titulo1 { 
+  box-shadow: .6em 0 0 #f5841f;
+  margin: 2rem 1rem;
+  width: 12ch;
+  overflow: hidden;
+  color: #000;
+  white-space: nowrap;
+  animation: caret .5s step-end infinite,
+             type 1s steps(12, end)
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes caret { 
+  50% { 
+    box-shadow: .6em 0 0 transparent;
+  }
+}
+
+/*****************************************/
 .container {
   background-color: #f0f0f0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 68px);
+  /* height: calc(100vh - 68px); */
 }
 .botao {
   background-color: #323232;
@@ -31,6 +58,7 @@
 .botao:active{
   box-shadow: 1px 1px 1px #32fd;
 }
+
 
 
 
